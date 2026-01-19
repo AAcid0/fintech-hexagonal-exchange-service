@@ -12,8 +12,8 @@ public class HumanStrategy implements IExchangeStrategy {
 
         return Pocket.builder()
                 .balanceUSD(new BigDecimal("1000"))
-                .balanceMars(new BigDecimal("0"))
-                .balanceVenus(new BigDecimal("0"))
+                .balanceMAR(new BigDecimal("0"))
+                .balanceVEN(new BigDecimal("0"))
                 .build();
     }
 

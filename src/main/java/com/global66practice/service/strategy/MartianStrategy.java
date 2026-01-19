@@ -12,8 +12,8 @@ public class MartianStrategy implements IExchangeStrategy {
 
         return Pocket.builder()
                 .balanceUSD(new BigDecimal("0"))
-                .balanceMars(new BigDecimal("500"))
-                .balanceVenus(new BigDecimal("0"))
+                .balanceMAR(new BigDecimal("500"))
+                .balanceVEN(new BigDecimal("0"))
                 .build();
     }
 

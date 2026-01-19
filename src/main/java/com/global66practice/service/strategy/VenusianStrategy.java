@@ -12,8 +12,8 @@ public class VenusianStrategy implements IExchangeStrategy {
 
         return Pocket.builder()
                 .balanceUSD(new BigDecimal("0"))
-                .balanceMars(new BigDecimal("0"))
-                .balanceVenus(new BigDecimal("0"))
+                .balanceMAR(new BigDecimal("0"))
+                .balanceVEN(new BigDecimal("0"))
                 .build();
     }
 
