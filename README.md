@@ -1,0 +1,2 @@
+# hexagonal-exchange-service
+A robust, thread-safe Multi-Currency Exchange API built with Java 17, Spring Boot 3, and Clean Architecture. Features Strategy Pattern for commission handling and strict BigDecimal financial calculations.
